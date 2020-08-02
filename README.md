@@ -1,6 +1,7 @@
 **Тестовое задание**
 
 **Сборка и запуск образа**:
+Копируем файл .env: sudo cp .example-env .env
 sudo docker-compose -f docker-compose.yml build
 sudo docker-compose -f docker-compose.yml up
 
